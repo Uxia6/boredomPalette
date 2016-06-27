@@ -1,0 +1,57 @@
+<div class="container">
+	<div class="row">
+
+		<div class="col-sm-4 weekly">
+
+			<button class="btn btn-info showMovie" ng-click="cat1={category: 'movie'}">top 3 movies</button>
+			<div class="weekCardMovie hide">
+			<div ng-repeat="week in weeks | filter: cat1">
+				<h1>{{week.title}}</h1>
+				<img ng-src={{week.image}} class="img-responsive">
+
+				<!--<video width="320" height="240" controls>
+					<source ng-src={{week.trailer}}>
+				</video>-->
+				
+				<p>{{week.description}}</p>
+
+			</div>
+			</div>
+
+		</div>
+
+		<div class="col-sm-4 weekly">
+
+			<button class="btn btn-info showBook" ng-click="cat2={category: 'book'}">top 3 books</button>
+			<div class="weekCardBook hide">
+			<div ng-repeat="week in weeks | filter: cat2">
+
+				<h1>{{week.title}}</h1>
+				<img ng-src={{week.image}} class="img-responsive">				
+				<p>{{week.description}}</p>
+				<p><a ng-href={{week.linkToBuy}}>Buy on Amazon</p>
+
+			</div>
+			</div>
+
+		</div>
+
+		<div class="col-sm-4 weekly">
+
+			<button class="btn btn-info showMusic" ng-click="cat3={category: 'music'}">top 3 music</button>
+			<div class="weekCardMusic hide">
+			<div ng-repeat="week in weeks | filter: cat3">
+
+				<h1>{{week.title}}</h1>
+				<h3>{{week.singer}}</h3>
+				<img ng-src={{week.image}} class="img-responsive">
+				<!--<audio controls>
+					<source ng-src="{{week.audio}}" type="audio/mpeg">
+				</audio>-->
+
+			</div>
+			</div>
+
+		</div>
+	</div>
+</div>

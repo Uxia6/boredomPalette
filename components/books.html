@@ -1,0 +1,17 @@
+
+<div class="card">
+	<h1>{{books2[0].volumeInfo.title}}</h1>
+	<h4>{{books2[0].volumeInfo.authors[0]}}</h4>
+	<img ng-src="{{books2[0].volumeInfo.imageLinks.thumbnail}}">
+	<h5>{{books2[0].searchInfo.textSnippet}}</h5>
+	<h6>Published date: {{books2[0].volumeInfo.publishedDate}}</h6>
+	<h6>Google price: {{books2[0].saleInfo.listPrice.amount}}€</h6>
+
+
+	<a ng-href="#book/location">Show in map</a><br>
+	<a ng-href="https://www.amazon.es/">Buy on Amazon</a><br>
+
+	<button class="btn btn-default prev" ng-click="prev()"> <span class="glyphicon glyphicon-chevron-left"></span> </button>
+	<button class="btn btn-default next" ng-click="next()"> <span class="glyphicon glyphicon-chevron-right"></span></button>
+
+</div>

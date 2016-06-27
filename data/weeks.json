@@ -1,0 +1,87 @@
+[
+  {
+    "category": "movie",
+    "image":"./data/carat/Shutterislandposter.jpg",
+    "title": "Shutter Island",
+    "trailer": "./data/trailer/shutterIsland.mp4",
+    "cast": "Leonardo DiCaprio",
+    "year": 2010,
+    "genre": ["Thriller","Mystery"],
+    "description": "A U.S Marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane."
+  },
+  {
+  	"category": "movie",
+    "image":"./data/carat/interstellar3.jpg",
+    "title": "Interestellar",
+    "trailer": "./data/trailer/shutterIsland.mp4",
+    "cast": " Matthew McConaughey",
+    "year": 2014,
+    "genre": ["Adventure","Drama","Sci-Fi"],
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+  },
+  {
+  	"category": "movie",
+    "image":"./data/carat/fight-club.25541.jpg",
+    "title": "Fight Club",
+    "trailer": "./data/trailer/shutterIsland.mp4",
+    "cast": "Edward Norton",
+    "year": 1999,
+    "genre": ["Drama"],
+    "description": "An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soap maker, forming an underground fight club that evolves into something much, much more..."
+  },
+  {
+    "category": "book",
+    "image":"./data/carat/nameWind.jpg",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "year": 2008,
+    "genre": ["Thriller","Mystery"],
+    "linkToBuy": "https://www.amazon.es/Name-Wind-Kingkiller-Chronicle-Day-ebook/dp/B0010SKUYM/ref=sr_1_1?ie=UTF8&qid=1466337256&sr=8-1&keywords=the+name+of+the+wind",
+    "description": "'I have stolen princesses back from sleeping barrow kings. I burned down the town of Trebon. I have spent the night with Felurian and left with both my sanity and my life. I was expelled from the University at a younger age than most people are allowed in. I tread paths by moonlight that others fear to speak of during day. I have talked to Gods, loved women, and written songs that make the minstrels weep. My name is Kvothe. You may have heard of me'."
+  },
+  {
+    "category": "book",
+    "image":"./data/carat/corpseReader.jpg",
+    "title": "The Corpse Reader",
+    "author": "Antonio Garrido",
+    "year": 2013,
+    "genre": ["Thriller","Mystery"],
+    "linkToBuy": "https://www.amazon.es/Corpse-Reader-Antonio-Garrido-ebook/dp/B00AB09KGO/ref=sr_1_1?ie=UTF8&qid=1466337338&sr=8-1&keywords=the+corpse+reader",
+    "description": "After his grandfather dies, avid scholar and budding forensic investigator Cí Song begrudgingly gives up his studies to help his family. But when another tragedy strikes, he’s forced to run and also deemed a fugitive. Dishonored, he has no choice but to accept work as a lowly gravedigger, a position that allows him to sharpen his corpse-reading skills. Soon, he can deduce whether a person killed himself—or was murdered."
+  },
+  {
+    "category": "book",
+    "image":"./data/carat/codeToZero.jpg",
+    "title": "Code to Zero",
+    "author": "Ken Follett",
+    "year": 2005,
+    "genre": ["Thriller","Mystery"],
+    "linkToBuy": "https://www.amazon.es/Code-Zero-English-Ken-Follett-ebook/dp/B004E9SYN8/ref=sr_1_1?ie=UTF8&qid=1466337372&sr=8-1&keywords=code+to+zero",
+    "description": "January, 1958: America's best hope in the space race-the Explorer I satellite-sits on the launch pad at Cape Canaveral. And when a man wakes that morning only to discover his memory erased and his life in danger, the only way he can reclaim his own identity-and find those responsible-is to remember the terrible secret that they forced him to forget. A secret that could destroy the Explorer I-and America's future."
+  },
+  {
+    "category": "music",
+    "image":"./data/carat/muse.jpg",
+    "title": "Psycho",
+    "singer": "Muse",
+    "audio": "./data/audio/muse.mp3",
+    "year": 2013
+  },
+  {
+    "category": "music",
+    "image":"./data/carat/Blurryface.png",
+    "title": "Ride",
+    "singer": "Twenty one pilots",
+    "audio": "./data/audio/ride.mp3",
+    "year": 2013
+  },
+  {
+    "category": "music",
+    "image":"./data/carat/lovingYou.jpg",
+    "title": "Who's loving' you",
+    "singer": "Michael Jackson",
+    "audio": "./data/audio/j5.mp3",
+    "year": 2013
+  }
+]
+

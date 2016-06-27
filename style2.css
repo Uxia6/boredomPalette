@@ -1,0 +1,214 @@
+body{
+	background-image: url(back/fondo16.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.name{
+	font-size: 70px;
+	font-weight: 100;
+	float: right;
+	margin-top: 10px;
+}
+
+.logo{
+	width: 6%;
+	position: absolute;
+	z-index: 100;
+	margin: 30px;
+}
+
+.backSongs{
+	background-image: url(back/song.jpg);
+	background-size: initial;
+	background-repeat: repeat;
+	background-position: top;
+	color: 	#577e83;
+
+}
+.backBooks{
+	background-image: url(back/books.jpg);
+	background-size: initial;
+	background-repeat: repeat;
+	background-position: top;
+
+}
+.backCinemas{
+	background-image: url(back/fondo21.jpeg);
+}
+.backWeekly{
+	background-image: url(back/fondo22.jpeg);
+	background-size: inherit;
+	background-repeat: repeat;
+}
+
+.conTop{
+	color: white;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 100;
+
+}
+
+.link{
+	color: white;
+}
+
+.link:hover{
+	color: white;
+	text-decoration: none;
+}
+.link dl{
+	padding: 3px;
+}
+.link dl:hover{
+	color: 	#577e83;
+	font-weight: 700;
+	font-size: 16px;
+
+}
+
+.conBot{
+	/*background-image: url(woven/woven.png);*/
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.options{
+	text-align: right;
+}
+.top{
+	margin: 20px;
+}
+.top dl{
+	display: inline-block;
+	margin: 20px;
+	padding-top: 20px;
+}
+.greetings{
+	color: white;
+	font-size: 70px;
+	margin-left: 430px;
+	font-weight: 100;
+	margin-top: 150px;
+}
+
+.forCat{
+	text-align: center;
+}
+
+
+.cat{
+	width: 350px;
+	height: 350px;
+	border-radius: 350px;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	margin: 15px;
+	background-color: black;
+
+}
+
+div h1{
+	margin-top: 50px;
+}
+
+.book{
+	background-image: url(giphy2.gif);
+	background-size: 160%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.mov{
+	background-image: url(giphy3.gif);
+	background-size: 160%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.song{
+	background-image: url(giphy4.gif);
+	background-size: 160%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.tag{
+	text-align: center;
+}
+
+
+.card{
+	text-align: center;
+	background-color: #666;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 40%;
+	margin: auto;
+	margin-right: 100px;
+	color: white;
+	padding: 20px;
+}
+
+.weekCardBook, .weekCardMovie, .weekCardMusic{
+	text-align: center;
+	background-color: #666;
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
+	color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 0.8);	
+	margin-top: 100%;
+	height: 100px;
+	text-align: center;
+	width: 100%;
+}
+.youWrite{
+	color: black;
+}
+.par{
+	color: black;
+}
+
+.modal{
+	color: #000000 !important;
+}
+
+.down{
+	margin-left: 100px;
+	width: 60%;
+}
+
+#map{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 0px 0px 0px 30px rgba(0,0,0,0.5); 
+}
+#mapBooks{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	margin-top: 70px;
+	box-shadow: 0px 0px 0px 30px rgba(0,0,0,0.5); 
+}
+#mapCine{
+	width: 600px;
+	height: 500px;
+	margin: auto;
+	margin-top: 70px;
+	box-shadow: 0px 0px 0px 30px rgba(0,0,0,0.5); 
+}
+
+.weekly{
+	text-align: center;
+	margin-top: 50px;
+}

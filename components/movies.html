@@ -1,0 +1,17 @@
+<div class="card">
+	<h1 class="movieTitle">{{cinemas2.Title}}</h1>
+	<h3>Rating: {{cinemas2.imdbRating}}</h3>
+	<img ng-src={{cinemas2.Poster}}>
+	<h4>{{cinemas2.Actors}}</h4>
+	<p>{{cinemas2.Plot}}</p>
+
+	<div class="forTrailer"></div><br>
+
+	<a ng-href="#cine/location">Show in map</a><br>
+
+	<button class="btn btn-default prev" ng-click="prev()"> <span class="glyphicon glyphicon-chevron-left"></span> </button>
+
+	<button class="btn btn-dafault" onclick="playTrailer()">Trailer</button>
+
+	<button class="btn btn-default next" ng-click="next()"> <span class="glyphicon glyphicon-chevron-right"></span></button>
+</div> 

@@ -1,0 +1,17 @@
+<div class="card">
+	<h1>{{songs2First.artists[0].name}}</h1>
+	<h3 class="title">{{songs2First.name}}</h3>
+	
+	<img class="img-responsive" ng-src="{{songs2First.album.images[0].url}}">
+
+	<h1>{{songs[first].Name}}</h1>
+
+	<div class="forAudio"></div>
+
+	<button class="btn btn-default prev" ng-click="prev()"> <span class="glyphicon glyphicon-chevron-left"></span> </button>
+
+	<button class="btn btn-dafault" onclick="playSong()">Listen</button>
+
+	<button class="btn btn-default next" ng-click="next()"> <span class="glyphicon glyphicon-chevron-right"></span></button>
+
+</div>
